@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a id="logo"><img src="imgs/logo.png" alt=""></a>
+        <ul>
+            <li><a href="#heroSection">HOME</a></li>
+            <li><a href="#formContainer">CALCULATOR</a></li>
+            <li><a href="#infoSection">INFO</a></li>
+            <li><a href="#">API</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<section id="heroSection">
+    <div class="hero">
+    <div id="textContainer">
+        <h1 class="heroHeading hidden" id="yourH">YOUR</h1>
+        <h1 class="heroHeading hidden" id="bodyH">BODY</h1>
+        <h1 class="heroHeading hidden" id="healthH">HEALTH</h1>
+        <h1 class="heroHeading hidden" id="mattersH">MATTERS</h1>
+    </div>
+    <div id="imageContainer">
+        <img src="imgs/heroImage.png" alt="">
+    </div>
+    </div>
+</section>
+    <section id="bodyIndexCalc">
+
+        <div class="hidden" id="formContainer">
+            <h1>KNOW <br>YOUR BMI</h1>
+            <form id="calcForm" action="">
+                <input type="text" id="age" name="age" placeholder="AGE" required>
+                <input type="text" id="bodyWeight" name="bodyWeight" placeholder="BODY WEIGHT" required>
+                    <div id="inputAndBtn">
+                        <input type="text" id="bodyHeight" name="bodyHeight" placeholder="BODY HEIGHT" required>
+                        <button id="btnCalc">CALCULATE</button>
+                        <p class="hide" id="yourBmi">Your BMI</p>
+                    </div>
+            </form>
+            </div>
+            <div id="calcImg">
+                <img src="imgs/calcImage.png" alt="">
+            </div>
+
+    </section>
+    <section id="infoSection">
+        <div id="infoHeading"><h1>WHAT DOES IT MEAN</h1></div>
+        <div id="cards">
+            <div class="card hidden">
+                <h4>UNDERWEIGHT</h4>
+                <p>18.4<</p>
+            </div>
+            <div class="card hidden">
+                <h4>NORMAL</h4>
+                <p>18.5+</p>
+            </div>
+            <div class="card hidden">
+                <h4>OVERWEIGHT</h4>
+                <p>25+</p>
+            </div>
+            <div class="card hidden">
+                <h4>OBESE</h4>
+                <p>40+</p>
+            </div>
+        </div>
+        <div id="imgOnTheBG">
+            <img src="imgs/infoBgImage.png" alt="">
+        </div>
+
+    </section>
+</main>
+
+<footer>
+
+</footer>
+<script src="src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color:#040404;
+    font-family: "Raleway", serif;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+.card:nth-child(2){
+    transition-delay: 200ms;
+}
+.card:nth-child(3){
+    transition-delay: 400ms;
+}
+.card:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.hide{
+    display: none;
+}
+.notHidden{
+    display: block;
+    animation: fadeIn 2s;
+}
+header{
+    width:96%;
+    padding-top: 1rem;
+}
+header nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+header nav ul{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right:2rem;
+    justify-content: flex-end;
+    gap: 4rem;
+}
+header nav ul a:hover{
+    animation: bottomStroke 1.5s;
+    border-bottom: white solid 1px;
+
+}
+#logo{
+    margin:auto;
+    padding-left:5.3rem;
+}
+#logo img{
+    width:7rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#imageContainer img{
+    width:100%;
+    z-index: 1;
+}
+#imageContainer {
+    z-index: 90;
+}
+.hero{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    padding-top: 7rem;
+}
+#textContainer{
+    width:100%;
+    height:30rem;
+    z-index: 80;
+    position: absolute;
+    top:16rem;
+    text-align: center;
+}
+.heroHeading{
+    font-size:5rem;
+}
+#yourH{
+    z-index: 81;
+    position:absolute;
+    top:-1rem;
+    left:27rem;
+}
+#bodyH{
+    z-index: 81;
+    position:absolute;
+    top:9.5rem;
+    left:59.5rem;
+}
+#healthH{
+    z-index: 81;
+    position:absolute;
+    top:19rem;
+    left:15rem;
+}
+#mattersH{
+    z-index: 81;
+    position:absolute;
+    top:22rem;
+    left:62rem;
+}
+#bodyIndexCalc{
+    padding-top: 6rem;
+    width: 95%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#calcImg{
+    width:40%;
+    padding-right: 30px;
+}
+#calcImg img{
+    width: 728px;
+    height: 756px;
+}
+#formContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    border-top: 1px solid #FFFFFF;
+    border-bottom:1px solid #141516;
+    background-image:
+            linear-gradient(#FFFFFF, #141516),
+            linear-gradient(#FFFFFF, #141516)
+;
+    background-size:1px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+    border-radius: 15px;
+    width: 528px;
+    height: 756px;
+    margin-left: 30px;
+}
+#formContainer h1{
+    font-weight: 800;
+    font-size: 80px;
+    color: #fff;
+    padding-left: 35px;
+}
+
+#calcForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 35px;
+}
+input{
+    margin-bottom:33px;
+    padding:30px 220px 30px  15px;
+    background-color:transparent;
+    border: white solid 1px;
+    color: white;
+    border-radius: 15px;
+}
+input::placeholder{
+    color: white;
+    font-family: "Raleway", serif;
+    font-weight: 800;
+}
+#bodyHeight{
+    padding:30px 80px 30px  15px;
+    border-radius: 15px 0px 0px 15px;
+}
+#inputAndBtn button{
+    padding:30px 40px 30px  20px;
+    border-radius: 0px 15px 15px 0px;
+    background-color:white;
+    color:black;
+    border:none;
+    font-family: "Raleway", serif;
+    font-weight: 800;
+
+}
+#inputAndBtn p{
+    margin:0 auto;
+    text-align:center;
+    font-family: "Raleway", serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: #fff;
+}
+#infoSection{
+    margin-top: 257px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#infoHeading{
+    color:white;
+    font-weight: 800;
+    font-size: 90px;
+    color: #fff;
+    z-index: 99;
+}
+#cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    z-index: 100;
+    top: 2300px;
+    position: absolute;
+}
+.card{
+    backdrop-filter: blur(15.79999923706055px);
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 15px;
+    width: 198px;
+    height: 230px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom:1px solid #141516;
+    background-image:
+            linear-gradient(#FFFFFF, #141516),
+            linear-gradient(#FFFFFF, #141516)
+;
+    background-size:1px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+.card:hover{
+    animation: getBigger 1s;
+    width: 220px;
+    height: 260px
+}
+.card h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+.card p{
+    margin-top:30px;
+    font-size: 70px;
+    font-weight: 700;
+}
+#imgOnTheBG{
+    position: absolute;
+    top: 2350px;
+    left: 60%;
+    width:600px;
+    height: 700px;
+    z-index: 80;
+}
+#imgOnTheBG img{
+    width:600px;
+    height: 700px;
+}
+
+footer{
+    z-index: 100;
+    width:100%;
+    position:absolute;
+    top: 3000px;
+    margin-top:auto;
+    height:200px;
+    border-top: white solid 1px;
+    background-color: #040404;
+}
+@keyframes bottomStroke {
+0%{
+    border-bottom: rgba(255, 255, 255, 0) solid 1px;
+}
+    100%{
+        border-bottom: white solid 1px;
+    }
+}
+@keyframes getBigger {
+    0%{
+        width: 198px;
+        height: 230px;
+    }
+    100%{
+        width: 220px;
+        height: 260px
+    }
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
