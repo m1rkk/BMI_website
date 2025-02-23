@@ -40,7 +40,7 @@ body{
 }
 header{
     width:96%;
-    padding-top: 1rem;
+    padding-top: 1%;
 }
 header nav{
     display:flex;
@@ -54,9 +54,9 @@ header nav ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding-right:2rem;
+    padding-right:2%;
     justify-content: flex-end;
-    gap: 4rem;
+    gap: 6%;
 }
 header nav ul a:hover{
     animation: bottomStroke 1.5s;
@@ -65,10 +65,10 @@ header nav ul a:hover{
 }
 #logo{
     margin:auto;
-    padding-left:5.3rem;
+    padding-left:6%;
 }
 #logo img{
-    width:7rem;
+    width:75%;
 }
 a{
     text-decoration: none;
@@ -85,7 +85,7 @@ a{
     color:white;
     display:flex;
     flex-direction: column;
-    padding-top: 7rem;
+    padding-top: 5%;
 }
 #textContainer{
     width:100%;
@@ -96,7 +96,7 @@ a{
     text-align: center;
 }
 .heroHeading{
-    font-size:5rem;
+    font-size:500%;
 }
 #yourH{
     z-index: 81;
@@ -123,7 +123,7 @@ a{
     margin-left:55%;
 }
 #bodyIndexCalc{
-    padding-top: 6rem;
+    padding-top: 20%;
     width: 95%;
     display:flex;
     flex-direction: row;
@@ -131,12 +131,12 @@ a{
     align-items: center;
 }
 #calcImg{
-    width:40%;
-    padding-right: 30px;
+    width:50%;
+    margin-right: -10%;
 }
 #calcImg img{
-    width: 728px;
-    height: 756px;
+    width: 100%;
+    height: 100%;
 }
 #formContainer{
     display:flex;
@@ -154,15 +154,14 @@ a{
     background-position:0 0, 100% 0;
     background-repeat:no-repeat;
     border-radius: 15px;
-    width: 528px;
-    height: 756px;
-    margin-left: 30px;
+    width: 40%;
+    height: 80%;
 }
 #formContainer h1{
     font-weight: 800;
-    font-size: 80px;
+    font-size: 500%;
     color: #fff;
-    padding-left: 35px;
+    padding-left: 5%;
 }
 
 #calcForm{
@@ -170,11 +169,11 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 35px;
+    padding-left: 5%;
 }
 input{
-    margin-bottom:33px;
-    padding:30px 220px 30px  15px;
+    margin-bottom:8%;
+    padding:8% 80% 8% 4%;
     background-color:transparent;
     border: white solid 1px;
     color: white;
@@ -200,15 +199,16 @@ input::placeholder{
 
 }
 #inputAndBtn p{
-    margin:0 auto;
+    margin: 0;
+    margin-left:36% ;
     text-align:center;
     font-family: "Raleway", serif;
     font-weight: 800;
-    font-size: 80px;
+    font-size: 500%;
     color: #fff;
 }
 #infoSection{
-    margin-top: 257px;
+    margin-top: 20%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -216,7 +216,7 @@ input::placeholder{
 }
 #infoHeading{
     font-weight: 800;
-    font-size: 90px;
+    font-size: 600%;
     color: #fff;
     z-index: 99;
 }
@@ -234,8 +234,8 @@ input::placeholder{
     backdrop-filter: blur(15.79999923706055px);
     background: rgba(255, 255, 255, 0.04);
     border-radius: 15px;
-    width: 198px;
-    height: 230px;
+    width: 15%;
+    height: 30%;
     border-top: 1px solid #FFFFFF;
     border-bottom:1px solid #141516;
     background-image:
@@ -253,29 +253,29 @@ input::placeholder{
 }
 .card:hover{
     animation: getBigger 1s;
-    width: 220px;
-    height: 260px
+    width: 17%;
+    height: 32%;
 }
 .card h4{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 150%;
 }
 .card p{
-    margin-top:30px;
-    font-size: 70px;
+    margin-top:10%;
+    font-size: 500%;
     font-weight: 700;
 }
 #imgOnTheBG{
     position: relative;
     margin-top: -13%;
-    margin-left: 63%;
-    width:600px;
-    height: 700px;
+    margin-right: -60%;
+    width:40%;
+    height: 60%;
     z-index: 80;
 }
 #imgOnTheBG img{
-    width:600px;
-    height: 700px;
+    width:100%;
+    height: 100%;
 }
 
 #aiAssistantHero{
@@ -292,7 +292,7 @@ input::placeholder{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    font-size: 100px;
+    font-size: 700%;
     text-align: left;
 }
 #aiHeroText h1:nth-child(1){
@@ -316,23 +316,25 @@ input::placeholder{
     text-align: left;
     margin: 0;
     padding: 0;
+    font-size: 150%;
     font-family: "Raleway", serif;
 }
 #aiHeroImg{
-    margin-bottom: -100px;
-    margin-left: -350px;
+    margin-bottom: -5%;
+    margin-left: -25%;
     position: relative;
     z-index: 99;
  }
  #aiHeroImg img{
-    width: 920px;
-    height: 960px
+    width: 100%;
+    height: 100%;
 }
 #aiChat{
-    margin-top: 200px;
+    width: 100%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
 }
 #chat{
@@ -340,11 +342,12 @@ input::placeholder{
     width:70%;
     height:600px;
     border-radius: 15px;
-    backdrop-filter: blur(8px);
-    background: rgba(16, 16, 16, 0.17);
+    backdrop-filter: blur(7px);
+    background: rgba(16, 16, 16, 0.51);
     overflow-y: scroll;
 }
 #chat::-webkit-scrollbar {
+    display: block;
     opacity: 1;
     width: 10px;
     background: rgba(0, 0, 0, 0.32);
@@ -359,19 +362,12 @@ input::placeholder{
     width:120px;
     height:25px;
 }
-#chatInput{
-    z-index: 99;
-    width:60%;
-    height:10px;
-    backdrop-filter: blur(10px);
-    background: rgba(16, 16, 16, 0.33);
-    border: none;
-}
+
 #inputSendContainer{
     z-index: 99;
-    margin-top: 50px;
-    width:50%;
-    height: fit-content;
+    margin-top: 5%;
+    width:40%;
+    height: 2%;
     backdrop-filter: blur(10px);
     border: none;
     display: flex;
@@ -379,13 +375,21 @@ input::placeholder{
     justify-content: space-around;
     align-items: center;
 }
+#chatInput{
+    z-index: 99;
+    width:90%;
+    height:2px;
+    backdrop-filter: blur(7px);
+    background: rgba(16, 16, 16, 0.51);
+    border: none;
+}
 #inputSendContainer img{
     z-index: 100;
     position: relative;
-    margin-left: -20%;
-    margin-bottom: 30px;
-    width:30px;
-    height:30px;
+    margin-left: -10%;
+    margin-bottom: 7%;
+    width:5%;
+    height:5%;
 }
 #chatInput::placeholder{
     color: rgba(255, 255, 255, 0.51);
@@ -429,7 +433,7 @@ button:focus {
     outline: none;
 }
 ::-webkit-scrollbar{
-    opacity: 0;
+    display: none;
 }
 @keyframes bottomStroke {
 0%{
@@ -441,12 +445,12 @@ button:focus {
 }
 @keyframes getBigger {
     0%{
-        width: 198px;
-        height: 230px;
+        width: 15%;
+        height: 30%;
     }
     100%{
-        width: 220px;
-        height: 260px
+        width: 17%;
+        height: 32%;
     }
 }
 @keyframes sendAnim {
