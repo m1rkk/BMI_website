@@ -91,8 +91,8 @@ a{
     width:100%;
     height:30rem;
     z-index: 80;
-    position: absolute;
-    top:16rem;
+    position: relative;
+    margin-bottom: -33%;
     text-align: center;
 }
 .heroHeading{
@@ -100,27 +100,27 @@ a{
 }
 #yourH{
     z-index: 81;
-    position:absolute;
-    top:-1rem;
-    left:27rem;
+    position:relative;
+    margin-top:5%;
+    margin-right:28%;
 }
 #bodyH{
     z-index: 81;
-    position:absolute;
-    top:9.5rem;
-    left:59.5rem;
+    position:relative;
+    margin-top:-1%;
+    margin-left:38%;
 }
 #healthH{
     z-index: 81;
-    position:absolute;
-    top:19rem;
-    left:15rem;
+    position:relative;
+    margin-top:5%;
+    margin-right:49%;
 }
 #mattersH{
     z-index: 81;
-    position:absolute;
-    top:22rem;
-    left:62rem;
+    position:relative;
+    margin-top:-2%;
+    margin-left:55%;
 }
 #bodyIndexCalc{
     padding-top: 6rem;
@@ -215,7 +215,6 @@ input::placeholder{
     align-items: center;
 }
 #infoHeading{
-    color:white;
     font-weight: 800;
     font-size: 90px;
     color: #fff;
@@ -228,8 +227,8 @@ input::placeholder{
     align-items: center;
     width:100%;
     z-index: 100;
-    top: 2300px;
-    position: absolute;
+    margin-top: -11%;
+    position: relative;
 }
 .card{
     backdrop-filter: blur(15.79999923706055px);
@@ -267,9 +266,9 @@ input::placeholder{
     font-weight: 700;
 }
 #imgOnTheBG{
-    position: absolute;
-    top: 2350px;
-    left: 60%;
+    position: relative;
+    margin-top: -13%;
+    margin-left: 63%;
     width:600px;
     height: 700px;
     z-index: 80;
@@ -280,7 +279,6 @@ input::placeholder{
 }
 
 #aiAssistantHero{
-    padding-top: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -384,7 +382,7 @@ input::placeholder{
 #inputSendContainer img{
     z-index: 100;
     position: relative;
-    margin-left: -125px;
+    margin-left: -20%;
     margin-bottom: 30px;
     width:30px;
     height:30px;
